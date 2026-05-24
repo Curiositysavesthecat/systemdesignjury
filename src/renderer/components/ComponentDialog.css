@@ -1,0 +1,127 @@
+.component-dialog__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.component-dialog {
+  background: #fff;
+  border-radius: 10px;
+  padding: 24px;
+  width: 380px;
+  border: 1.5px solid #e0e0e0;
+}
+
+.component-dialog__title {
+  margin: 0 0 18px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.component-dialog__field {
+  margin-bottom: 14px;
+}
+
+.component-dialog__field--last {
+  margin-bottom: 18px;
+}
+
+.component-dialog__label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #888;
+}
+
+.component-dialog__label-optional {
+  font-weight: 400;
+  color: #bbb;
+}
+
+.component-dialog__input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.component-dialog__select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.component-dialog__textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  min-height: 54px;
+  resize: none;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.component-dialog__actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.component-dialog__wizard-btn {
+  padding: 7px 14px;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.component-dialog__wizard-btn--database {
+  border: 1.5px solid #d97706;
+  color: #d97706;
+}
+
+.component-dialog__wizard-btn--api {
+  border: 1.5px solid #2563eb;
+  color: #2563eb;
+}
+
+.component-dialog__cancel-btn {
+  padding: 7px 14px;
+  background: transparent;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #666;
+}
+
+.component-dialog__confirm-btn {
+  padding: 7px 14px;
+  background: #2c2c2c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}

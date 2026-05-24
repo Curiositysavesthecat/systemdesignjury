@@ -1,0 +1,86 @@
+.workspace {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.workspace__header {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1.5px solid #eee;
+  background: #fff;
+}
+
+.workspace__back-btn {
+  padding: 5px 12px;
+  background: transparent;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #555;
+}
+
+.workspace__panel-toggles {
+  margin-left: 12px;
+  display: flex;
+  gap: 4px;
+}
+
+.workspace__panel-toggle {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  border-radius: 4px;
+}
+
+.workspace__spacer {
+  flex: 1;
+}
+
+.workspace__right-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.workspace__status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #aaa;
+}
+
+.workspace__status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.workspace__status-dot--connected {
+  background: #666;
+}
+
+.workspace__status-dot--disconnected {
+  background: #ccc;
+  border: 1px solid #aaa;
+}
+
+.workspace__body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.workspace__panel {
+  flex-shrink: 0;
+  overflow: hidden;
+}

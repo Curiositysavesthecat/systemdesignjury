@@ -1,0 +1,185 @@
+.resource-node {
+  border: 1.5px solid #d0d0d0;
+  border-radius: 6px;
+  background: #fff;
+  min-width: 260px;
+  font-size: 11px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.resource-node--selected {
+  border: 2px solid #555;
+}
+
+.resource-node__header {
+  padding: 7px 10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 700;
+  font-size: 12px;
+  background: #f9f9f9;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resource-node__label-input {
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  width: 100%;
+  outline: none;
+}
+
+.resource-node__label {
+  cursor: text;
+}
+
+.resource-node__endpoint-count {
+  font-size: 9px;
+  color: #aaa;
+  font-weight: 400;
+}
+
+.resource-node__endpoint {
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.resource-node__endpoint-row {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.resource-node__method-select {
+  font-size: 9px;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.resource-node__path-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 11px;
+  outline: none;
+  font-family: 'SF Mono', Menlo, monospace;
+}
+
+.resource-node__delete-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #ccc;
+  padding: 0;
+  display: flex;
+}
+
+.resource-node__delete-btn:hover {
+  color: #c0392b;
+}
+
+.resource-node__endpoint-detail {
+  padding: 4px 10px 8px 22px;
+  background: #fafafa;
+}
+
+.resource-node__desc-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 10px;
+  outline: none;
+  color: #888;
+  margin-bottom: 6px;
+  padding: 0;
+}
+
+.resource-node__section-label {
+  font-size: 9px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.resource-node__section-label--response {
+  margin-top: 6px;
+}
+
+.resource-node__param-row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 2px;
+}
+
+.resource-node__param-name {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 10px;
+  outline: none;
+  font-family: 'SF Mono', Menlo, monospace;
+}
+
+.resource-node__param-type {
+  width: 52px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  font-size: 9px;
+  background: transparent;
+  color: #666;
+}
+
+.resource-node__param-required {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.resource-node__param-delete {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #ccc;
+  padding: 0;
+  display: flex;
+}
+
+.resource-node__add-param-btn {
+  font-size: 9px;
+  color: #aaa;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.resource-node__add-endpoint-btn {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 10px;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 0 0 5px 5px;
+}
+
+.resource-node__add-endpoint-btn:hover {
+  color: #666;
+}

@@ -1,0 +1,148 @@
+.entity-node {
+  border: 1.5px solid #d0d0d0;
+  border-radius: 6px;
+  background: #fff;
+  min-width: 220px;
+  font-size: 11px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.entity-node--selected {
+  border: 2px solid #555;
+}
+
+.entity-node__header {
+  padding: 7px 10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 700;
+  font-size: 12px;
+  background: #f9f9f9;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.entity-node__label-input {
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  width: 100%;
+  outline: none;
+}
+
+.entity-node__label {
+  cursor: text;
+}
+
+.entity-node__columns-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 3px 10px;
+  display: flex;
+  gap: 4px;
+  color: #aaa;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.entity-node__columns-header-name {
+  flex: 1;
+}
+
+.entity-node__columns-header-type {
+  width: 58px;
+}
+
+.entity-node__columns-header-idx {
+  width: 24px;
+  text-align: center;
+}
+
+.entity-node__columns-header-del {
+  width: 16px;
+}
+
+.entity-node__column {
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-bottom: 1px solid #f8f8f8;
+  position: relative;
+}
+
+.entity-node__col-name {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 11px;
+  padding: 2px 0;
+  outline: none;
+  font-family: 'SF Mono', Menlo, monospace;
+}
+
+.entity-node__col-type {
+  width: 58px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  font-size: 10px;
+  padding: 1px 2px;
+  background: transparent;
+}
+
+.entity-node__col-type--pk {
+  color: #16a34a;
+}
+
+.entity-node__col-type--fk {
+  color: #d97706;
+}
+
+.entity-node__col-type--default {
+  color: #666;
+}
+
+.entity-node__col-index {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  margin: 0 6px;
+}
+
+.entity-node__col-delete {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  padding: 0;
+}
+
+.entity-node__col-delete:hover {
+  color: #c0392b;
+}
+
+.entity-node__add-btn {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 10px;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 0 0 5px 5px;
+}
+
+.entity-node__add-btn:hover {
+  color: #666;
+}
