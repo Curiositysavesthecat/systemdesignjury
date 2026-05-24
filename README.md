@@ -59,6 +59,13 @@ npm run package:all
 
 Built artifacts appear in the `release/` folder.
 
+
+https://github.com/user-attachments/assets/2fbdb430-8baa-46c5-81e7-2f580ec07c82
+
+<img width="1728" height="1083" alt="Screenshot 2026-05-25 at 1 45 24 AM" src="https://github.com/user-attachments/assets/5d548114-e489-41ad-8263-d8b6c41441fe" />
+<img width="1728" height="1091" alt="Screenshot 2026-05-25 at 1 46 37 AM" src="https://github.com/user-attachments/assets/1b55d6a5-b8c8-4c05-828a-9c6bffa8d34c" />
+
+
 ## Tech Stack
 
 - **Electron** — Cross-platform desktop shell
@@ -80,3 +87,4 @@ Built artifacts appear in the `release/` folder.
 ## License
 
 ISC
+
